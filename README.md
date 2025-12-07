@@ -24,14 +24,15 @@ dqn , double_dqn , rainforce_base , a2c , 선택하기 귀찮을땐 all
 에피소드수 : 500 보다 많게만 하세요. 학습을 500단위로 끊어 뒀거든요.
 
 
-train mode
+# train mode
 
 
 python train_rl.py --puzzle 문제번호 --algorithm 에이전트 타입 --episodes 에피소드수(전 10000으로 했습니다.)
 ======================================================================
 
 
-elvaluation mode
+# elvaluation mode
+
 
 # Oh Jama 플레이 시각화 reinforce_baseline
 (디폴트가 reinforce_baseline으로 되어 있습니다. 그래서 다른 알고리즘의 경우에는 뒤에 --algorithm 알고리즘 명을 써야합니다.)
