@@ -1,0 +1,115 @@
+(card_rl_project) eternal@DESKTOP-UMQATDH:~/projects/YGH_card_rl/YOGIHO_GAME/multy_type/RL$ python play_ancient_kings.py --model results/best_model_Ancient_Kings_20251206_033817.pth --algorithm a2c
+══════════════════════════════════════════════════════════════════════
+🎮 ANCIENT KINGS PUZZLE - TRAINED AGENT PLAYBACK
+══════════════════════════════════════════════════════════════════════
+📂 Loading model: results/best_model_Ancient_Kings_20251206_033817.pth
+   Checkpoint keys: ['ac_net', 'optimizer']
+✅ Model loaded successfully!
+
+┌────────────────────────────────────────────────────────────────────┐
+│ 📊 INITIAL STATE                                                    │
+├────────────────────────────────────────────────────────────────────┤
+│  Player LP: 100                                                    │
+│  Opponent LP: 4200                                                 │
+├────────────────────────────────────────────────────────────────────┤
+│  Player Hand:                                                      │
+│    • Megazowler                                                    │
+│    • Mad Sword Beast                                               │
+│    • Big Evolution Pill                                            │
+│    • Confiscation                                                  │
+│    • Ultimate Tyranno                                              │
+├────────────────────────────────────────────────────────────────────┤
+│  Player S/T Zones:                                                 │
+│    [Zone 2] Mystik Wok                                             │
+│    [Zone 3] Ultimate Offering                                      │
+├────────────────────────────────────────────────────────────────────┤
+│  Opponent Hand:                                                    │
+│    • Kuriboh ⚠️ (blocks direct attack!)                            │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│ 🎯 CORRECT SEQUENCE                                                 │
+├────────────────────────────────────────────────────────────────────┤
+│  1. Big Evolution Pill → Megazowler                                │
+│  2. Mystik Wok → LP 100→2100                                       │
+│  3. Confiscation → Remove Kuriboh (LP 2100→1100)                   │
+│  4. Ultimate Offering → Mad Sword Beast (LP 1100→600)              │
+│  5. Ultimate Offering → Ultimate Tyranno (LP 600→100)              │
+│  6. Battle Phase → Direct Attack (1400 + 3000 = 4400)              │
+└────────────────────────────────────────────────────────────────────┘
+
+🔹 Step 1: ACTIVATE_SPELL: Big Evolution Pill
+──────────────────────────────────────────────────────────────────────
+   Reward: +57.50 (Total: 57.50)
+   Field: Megazowler (ATK 1800)
+   Total ATK: 1800 | ❌ Kuriboh in hand
+
+🔹 Step 2: ACTIVATE_TRAP: Mystik Wok
+──────────────────────────────────────────────────────────────────────
+   Reward: +86.00 (Total: 143.50)
+   LP: 100 → 2100 (↑2000)
+
+🔹 Step 3: ACTIVATE_SPELL: Confiscation
+──────────────────────────────────────────────────────────────────────
+   Reward: +46.00 (Total: 189.50)
+   LP: 2100 → 1100 (↓1000)
+
+🔹 Step 4: ACTIVATE_TRAP: Ultimate Offering
+──────────────────────────────────────────────────────────────────────
+   Reward: +65.00 (Total: 254.50)
+   LP: 1100 → 600 (↓500)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 5: ACTIVATE_TRAP: Ultimate Offering
+──────────────────────────────────────────────────────────────────────
+   Reward: +195.00 (Total: 449.50)
+   LP: 600 → 100 (↓500)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 6: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: +31.00 (Total: 480.50)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 7: ATTACK: Ultimate Tyranno (ATK 3000) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +121.43 (Total: 601.93)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 8: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +83.33 (Total: 685.26)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+══════════════════════════════════════════════════════════════════════
+🏆 VICTORY!
+══════════════════════════════════════════════════════════════════════
+
+┌────────────────────────────────────────────────────────────────────┐
+│ 📊 EPISODE SUMMARY                                                  │
+├────────────────────────────────────────────────────────────────────┤
+│  Result: win                                                       │
+│  Total Steps: 8                                                    │
+│  Total Reward: 685.26                                              │
+│  Final Player LP: 100                                              │
+│  Final Opponent LP: -200                                           │
+└────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────┐
+│ 📋 SEQUENCE PROGRESS                                                │
+├────────────────────────────────────────────────────────────────────┤
+│  ✅ Step 1: Big Evolution Pill                                      │
+│  ✅ Step 2: Mystik Wok                                              │
+│  ✅ Step 3: Confiscation                                            │
+│  ✅ Step 4: Ultimate Offering → Mad Sword Beast                     │
+│  ✅ Step 5: Ultimate Offering → Ultimate Tyranno                    │
+└────────────────────────────────────────────────────────────────────┘

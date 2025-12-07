@@ -1,0 +1,129 @@
+🔹 Step 1: ACTIVATE_SPELL: Big Evolution Pill
+──────────────────────────────────────────────────────────────────────
+   Reward: +57.50 (Total: 57.50)
+   Field: Megazowler (ATK 1800)
+   Total ATK: 1800 | ❌ Kuriboh in hand
+
+🔹 Step 2: ACTIVATE_TRAP: Mystik Wok
+──────────────────────────────────────────────────────────────────────
+   Reward: +86.00 (Total: 143.50)
+   LP: 100 → 2100 (↑2000)
+
+🔹 Step 3: ACTIVATE_SPELL: Confiscation
+──────────────────────────────────────────────────────────────────────
+   Reward: +46.00 (Total: 189.50)
+   LP: 2100 → 1100 (↓1000)
+
+🔹 Step 4: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: +1.00 (Total: 190.50)
+
+🔹 Step 5: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: -0.50 (Total: 190.00)
+
+🔹 Step 6: END_TURN
+──────────────────────────────────────────────────────────────────────
+   Reward: -25.00 (Total: 165.00)
+
+🔹 Step 7: ACTIVATE_TRAP: Ultimate Offering
+──────────────────────────────────────────────────────────────────────
+   Reward: +65.00 (Total: 230.00)
+   LP: 1100 → 600 (↓500)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 8: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: +1.00 (Total: 231.00)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 9: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +53.33 (Total: 284.33)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 10: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +17.50 (Total: 301.83)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 11: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +17.50 (Total: 319.33)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 12: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +17.50 (Total: 336.83)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 13: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: -0.50 (Total: 336.33)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 14: END_TURN
+──────────────────────────────────────────────────────────────────────
+   Reward: -25.00 (Total: 311.33)
+   Field: Mad Sword Beast (ATK 1400)
+   Total ATK: 1400 | ✅ Kuriboh removed
+
+🔹 Step 15: ACTIVATE_TRAP: Ultimate Offering
+──────────────────────────────────────────────────────────────────────
+   Reward: +195.00 (Total: 506.33)
+   LP: 600 → 100 (↓500)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 16: CHANGE_PHASE → Battle Phase
+──────────────────────────────────────────────────────────────────────
+   Reward: +31.00 (Total: 537.33)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 17: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +83.33 (Total: 620.67)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 18: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +47.50 (Total: 668.17)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 19: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +47.50 (Total: 715.67)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 20: ATTACK: Mad Sword Beast (ATK 1400) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +47.50 (Total: 763.17)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+🔹 Step 21: ATTACK: Ultimate Tyranno (ATK 3000) → Direct Attack
+──────────────────────────────────────────────────────────────────────
+   Reward: +121.43 (Total: 884.60)
+   Field: Mad Sword Beast (ATK 1400), Ultimate Tyranno (ATK 3000)
+   Total ATK: 4400 | ✅ Kuriboh removed
+   🎯 VICTORY CONDITION MET! (4400 >= 4200, Kuriboh removed)
+
+══════════════════════════════════════════════════════════════════════
+🏆 VICTORY!
