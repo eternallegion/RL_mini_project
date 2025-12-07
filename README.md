@@ -21,3 +21,6 @@ python play_oh_jama.py --model results/best_model_Oh_Jama_20251206_162754.pth
 
 # Ancient Kings 플레이 시각화 a2c
 python play_ancient_kings.py --model results/best_model_Ancient_Kings_20251206_034924.pth --algorithm a2c
+
+
+만일 실행이 잘 안 될경우, 백업파일에 있는 걸 쓰세요
