@@ -35,6 +35,7 @@ elvaluation mode
 
 python play_oh_jama.py --model results/best_model_Oh_Jama_20251206_162754.pth
 
+
 # Ancient Kings 플레이 시각화 a2c
 
 python play_ancient_kings.py --model results/best_model_Ancient_Kings_20251206_034924.pth --algorithm a2c
