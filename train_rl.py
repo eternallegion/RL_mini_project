@@ -83,7 +83,7 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
     from actions import ActionSpace
     
     print("\n" + "=" * 70)
-    print(f"🎮 TRAINED AGENT PLAYING: {puzzle_name}")
+    print(f" TRAINED AGENT PLAYING: {puzzle_name}")
     print("=" * 70)
     
     wins = 0
@@ -99,7 +99,7 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
         env.verbose = True  # 상세 출력 활성화
         
         print()
-        print('📊 Initial State:')
+        print(' Initial State:')
         print(f'   Player LP: {env.simulator.game_state.player.lp}')
         print(f'   Opponent LP: {env.simulator.game_state.opponent.lp}')
         print()
@@ -134,7 +134,7 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
             action_obj = ActionSpace.index_to_action(action)
             action_name = get_action_name(action_obj, env.simulator.game_state)
             
-            print(f'🔹 Step {step}: {action_name}')
+            print(f' Step {step}: {action_name}')
             print('-' * 50)
             
             # 액션 실행
@@ -147,12 +147,12 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
                 print()
                 print('=' * 70)
                 if info.get('result') == 'win':
-                    print('🏆 VICTORY!')
+                    print(' VICTORY!')
                     wins += 1
                 elif info.get('result') == 'lose':
-                    print('💀 DEFEAT')
+                    print(' DEFEAT')
                 else:
-                    print(f'⏱️ {info.get("result", "timeout").upper()}')
+                    print(f' {info.get("result", "timeout").upper()}')
                 print('=' * 70)
                 break
             
@@ -163,7 +163,7 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
         total_rewards.append(total_reward)
         
         print()
-        print('📊 Episode Summary:')
+        print(' Episode Summary:')
         print(f'   Result: {info.get("result", "timeout")}')
         print(f'   Total Steps: {step}')
         print(f'   Total Reward: {total_reward:.2f}')
@@ -174,7 +174,7 @@ def visualize_agent_play(env, agent, puzzle_name: str, num_episodes: int = 1):
     if num_episodes > 1:
         print()
         print('=' * 70)
-        print('📊 OVERALL STATISTICS')
+        print(' OVERALL STATISTICS')
         print('=' * 70)
         print(f'   Win Rate: {wins}/{num_episodes} ({wins/num_episodes*100:.1f}%)')
         print(f'   Avg Reward: {sum(total_rewards)/len(total_rewards):.2f}')
