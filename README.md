@@ -7,6 +7,9 @@ requirements.txt는 RL파일속에 1개, 겉에 1개 이렇게 되어 있습니�
 
 pip install -r requirements.txt
 
+
+PDF로 보고서를 보실경우 점부된 동명의 txt파일을 참고해주세요.
+
 ==================================
 
 조 : 12조
