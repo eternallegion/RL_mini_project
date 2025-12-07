@@ -9,6 +9,8 @@ RL수업의 미니 프로젝트입니다.
 dqn , double_dqn , rainforce_base , a2c , all
 
 train mode
+
+
 python train_rl.py --puzzle 1 --algorithm all --episodes 10000
 ======================================================================
 
