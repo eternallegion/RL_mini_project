@@ -21,10 +21,13 @@ RL수업의 미니 프로젝트입니다.
 
 dqn , double_dqn , rainforce_base , a2c , 선택하기 귀찮을땐 all
 
+에피소드수 : 500 보다 많게만 하세요. 학습을 500단위로 끊어 뒀거든요.
+
+
 train mode
 
 
-python train_rl.py --puzzle 문제번호 --algorithm 에이전트 타입 --episodes 10000
+python train_rl.py --puzzle 문제번호 --algorithm 에이전트 타입 --episodes 에피소드수(전 10000으로 했습니다.)
 ======================================================================
 
 
