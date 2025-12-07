@@ -257,7 +257,7 @@ class AncientKingsEnv(YuGiOhPuzzleEnvBase):
             elif zone_idx == 3:
                 self.ultimate_offering_count += 1
                 
-                # ⭐ Ultimate Offering 2번 초과 사용 → 페널티 (LP 낭비)
+                #  Ultimate Offering 2번 초과 사용 → 페널티 (LP 낭비)
                 if self.ultimate_offering_count > 2:
                     shaped_reward -= 30.0
                     if self.verbose:
@@ -272,7 +272,7 @@ class AncientKingsEnv(YuGiOhPuzzleEnvBase):
                     if self.verbose:
                         print("  -> PENALTY: Not enough LP for Ultimate Offering! (-20)")
                 
-                # ⭐ Confiscation 없이 Ultimate Offering 사용 → 큰 페널티!
+                #  Confiscation 없이 Ultimate Offering 사용 → 큰 페널티!
                 if not self.step3_confiscation and self.step2_mystik_wok:
                     shaped_reward -= 80.0  # 큰 페널티!
                     if self.verbose:
